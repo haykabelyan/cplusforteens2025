@@ -2,6 +2,7 @@
 
 int main()
 {
+    std::string s = "l|*e*et|c**o|*de|";
     int flag = 0;
     int count = 0;
 
