@@ -1,5 +1,6 @@
-words = ["alice","bob","charlie"]
-s = "abc"
+words = []
+s = ''
+res = ''
 
 res = ""
 for el in words:
