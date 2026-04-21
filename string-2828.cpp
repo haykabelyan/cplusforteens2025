@@ -1,8 +1,7 @@
 #include <iostream>
 #include <vector>
 
-int main()
-{
+int main(){
     std::vector<std::string> words = {"alice","bob","charlie"};
     std::string s = "abc";
     std::string res = "";
