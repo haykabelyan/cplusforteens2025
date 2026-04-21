@@ -11,9 +11,10 @@ int main(){
             count1++;
         }
         else if(s[i] == '*' && count1 % 2 == 0){
-            count++;
+            count++; 
         }
     }
 
-    return count;
+    cout << count << endl;
+    return 0;
 }
