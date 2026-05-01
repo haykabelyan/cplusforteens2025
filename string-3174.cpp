@@ -7,12 +7,12 @@ int main(){
     std::string res = "";
 
     for(char c : s){
-        if(isdigit(c)){
-            res.pop_back();
+        if(isalpha(c)){
+            res.push_back(c);
         }
 
-        else if(isalpha(c)){
-            res.push_back(c);
+        else if(isdigit(c)){
+            res.pop_back();
         }
     }
 
