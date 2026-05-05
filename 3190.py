@@ -1,4 +1,4 @@
-nums = int(spl)
+nums = list(map(int, input().split()))
 c = 0
 for el in nums:
     if el%3 != 0:
