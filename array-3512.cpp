@@ -11,6 +11,6 @@ int main()
         sum += el;
     }
 
-    std::cout << sum;
+    std::cout << sum % k;
     
 }
