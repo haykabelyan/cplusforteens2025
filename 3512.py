@@ -1,8 +1,4 @@
-nums = []
+nums = list(map(int, input().split()))
 k = int(input())
-sum = 0
 
-for i in range(len(nums)):
-    sum+= nums[i]
-
-print(sum % k)
+print(sum(nums) % k)
