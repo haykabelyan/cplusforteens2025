@@ -1,12 +1,13 @@
 #include <iostream>
+#include <vector>
 
 int main(){
     int k = 5;
-    int nums[] = {3, 9, 7};
     int sum = 0;
+    std::vector<int> nums = {3, 9, 7};
 
     for(int el : nums){
-        el += sum;
+        sum += el;
     }
 
     std::cout << sum % k;
