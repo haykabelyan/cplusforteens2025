@@ -9,15 +9,14 @@ int main() {
     for(int i=0;i<n;i++) {
         cin>>nums[i];
     }
+    int c=0;
     for(int i=0;i<n;i++) {
-        int c=0;
+
         if(nums[i]%3!=0) {
         c++; 
     }
-    
-    
 }
-cout<<c;
+   cout<<c;
 
     return 0;
 }
