@@ -4,21 +4,21 @@
 using namespace std;
 int main() {
 
-    int n,;
+    int n,c=0;
     cin>>n;
     vector<int>nums(n);
     for(int i=0;i<n;i++) {
         cin>>nums[i];
     }
-    for(int i=0;i<n;i++) {
-            if(nums[i]%2==0) {
-                nums[i]=0;
-            } else nums[i]=1;
-        }
-        sort(nums.begin(), nums.end());
+    int c=0;
         for(int i=0;i<n;i++) {
-            cout<<nums[i];
+            for(int j=i+1;j<n;j++) {
+                if(nums[i]==nums[j] && i<j) {
+                c++;
+            }
+            }
         }
+        cout<<c;
     
 
     return 0;
