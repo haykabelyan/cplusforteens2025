@@ -4,4 +4,4 @@ for i in range(len(nums)):
         sum += nums[i]
     else:
         sum -= nums[i]
-print(s)
+print(sum)
