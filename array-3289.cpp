@@ -3,19 +3,24 @@
 
 int main()
 {
-    int count = 0;
-    std::vector<int> nums = {1, 2, 3, 1, 1, 3};
+    std::vector<int> nums = {0, 1, 1, 0};
+    std::vector<int> ans;
+
     for (int i = 0; i < nums.size(); i++)
     {
         for (int j = i + 1; j < nums.size(); j++)
         {
             if (nums[i] == nums[j])
             {
-                count++;
+                ans.push_back(nums[i]);
             }
         }
     }
 
-    std::cout << count;
+    for (int el : ans)
+    {
+        std::cout << el;
+    }
+
     return 0;
 }
