@@ -1,10 +1,8 @@
-accounts = [[1,2,3],[3,2,1]]
-max = 0
+nums = [2,5,1,3,4,7]
+n = 3
 
-for tiv in accounts:
-    sum = 0
-    for i in range( len(tiv) ):
-        sum += tiv[i]
-    if max < sum:
-        max = sum
-print(max)
+result = []
+for i in range(n):
+    result.append(nums[i])
+    result.append(nums[n+i])
+print(result)

@@ -3,23 +3,18 @@
 
 int main()
 {
-    std::vector< std::vector<int> > accounts = {{1,2,3},{3,2,1}};
+    std::vector<int> nums = {2, 5, 1, 3, 4, 7};
+    std::vector<int> ans = {};
+    int n = 3;
 
-    int max = 0;
-    for(std::vector<int> el : accounts)
+    for (int i = 0; i < n; i++)
     {
-        int sum = 0;
-        for(int i = 0; i < el.size(); i++)
-        {
-            sum += el[i];
-        }
-        if(max < sum)
-        {
-            max = sum;
-        }
+        ans.push_back(nums[i]);
+        ans.push_back(nums[i + n]);
     }
 
-    std::cout << max;
-
-    return 0;
+    for (int i = 0; i < ans.size(); i++)
+    {
+        std::cout << ans[i];
+    }
 }
