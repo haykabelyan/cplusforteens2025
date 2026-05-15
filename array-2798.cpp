@@ -1,9 +1,8 @@
 #include <iostream>
 #include <vector>
 
-
 int main(){
-    std::vector<int> hours = {0, 1, 2, 3, 4};
+    std::vector<int> hours = {0,1,2,3,4};
 
     int target = 2;
     int cnt = 0;
