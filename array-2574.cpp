@@ -16,7 +16,7 @@ int main(){
     std::vector<int> result(n);
 
     int s = 0;
-    for(int i = 0;i < n; i++){
+    for(int i = 0; i < n; i++){
         for(int j = 0;j < i; j++){
             s += nums[j];
         }
@@ -24,7 +24,7 @@ int main(){
     }
     
     int s = 0;
-    for(int i = 0; i< n; i++){
+    for(int i = 0; i < n; i++){
         for(int j = i + 1; j < n; j++){
             s += nums[j];
         }
