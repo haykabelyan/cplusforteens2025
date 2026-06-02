@@ -12,6 +12,6 @@ int main() {
     }
 
     for(int n : runningSum){
-        cout << n;
+        std::cout << n;
     }
 }
