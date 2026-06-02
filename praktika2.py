@@ -24,7 +24,7 @@ while True:
     5. Exit
                    
     Choose(1/2/3/4/5): 
-                   """)
+    """)
 
     if answer == '1':
         cursor.execute("SELECT * FROM clients")
