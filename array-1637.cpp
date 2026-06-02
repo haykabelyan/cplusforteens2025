@@ -8,7 +8,7 @@ int main(){
     int count = 0;
 
     for(int i = 0; i<points.size(); i++){
-            x.push_back(points[i][0]);
+        x.push_back(points[i][0]);
     }
 
     std::sort(x.begin(), x.end());
