@@ -4,7 +4,7 @@ multiplier = 2
 
 while k > 0:
 
-    mn = min(min)
+    mn = min(nums)
     mn_index = nums.index(mn)
     nums[mn_index] *= multiplier
 
