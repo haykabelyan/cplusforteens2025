@@ -3,7 +3,7 @@ k = 10
 count = 0
 
 for el in nums:
-    if el < k
+    if el < k:
         count += 1
 
 print(count)
