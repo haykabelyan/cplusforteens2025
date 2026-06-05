@@ -11,5 +11,5 @@ int main() {
         nums[mn_index] *= multiplier;
     }
 
-    return 0;
+    return nums;
 }
