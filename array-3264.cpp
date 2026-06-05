@@ -9,7 +9,7 @@ int main(){
     for(int n : nums){
         int min;
 
-        if(nums[n] < mn){
+        if(nums[n] < min){
             min = nums[n];
         }
 
