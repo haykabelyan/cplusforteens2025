@@ -9,5 +9,7 @@ int main() {
        all.insert(all.end(), nums[i], nums[i+1]);
     }
 
-    return all;
+    for(int i = 0; i<all.size(); i++){
+        std::cout << all[i];
+    }
 }
