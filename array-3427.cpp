@@ -8,7 +8,7 @@ int main() {
     int count = 0;
 
     for (int i = 0; i < nums.size(); i++) {
-        int start = max(0, i - nums[i]);
+        int start = std::max(0, i - nums[i]);
 
         for (int j = start; j <= i; j++) {
             count += nums[j];
